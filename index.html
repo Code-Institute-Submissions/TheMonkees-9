@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+      <!-- Some JavaScript code for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+   
+    <!-- Installing Ubuntu and Montserrat fonts from Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+
+
+    <title>The Monkees</title>
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- local CSS stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+<!-- Contact form -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+        
+<!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  
+    <!-- W3 Schools stylesheet -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+
+  
+
+</head>
+
+<body>
+
+    <section id="title" class="title">
+
+        <div class="container-fluid">
+
+
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"></img></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-dark" href="#jukebox">Jukebox</a>
+
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-dark" href="#video-gallery">Gallery</a>
+
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-dark" href="#contact">Contact</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-lg-6 text-white" style="background-color: #fb2e01;">
+                    <h1>The Monkees have returned ! </h1>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-play"></i> Our Jukebox</button>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-play"></i> Contact us</button>
+                    <div class=" justify-content-center ">
+                        <span class="tagline">Spread the word!</span>
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                        <!--Twitter-->
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+                        <!--Google +-->
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+                        <!--Linkedin-->
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6" style="background-color: #ffe28a;">
+                    <img class="iphone" src="images/monkees2.png" alt="iphone-mockup">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        -->
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials" class="testimonials">
+
+        <div id="testimonial_carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>The Monkees made my wedding unforgettable!</h2>
+                    <img class="testimonial_image" src="images/sarah.jpg" alt="dog-profile">
+                    <em>Sarah, New York</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">Your performance brought me back to my childhood.</h2>
+                    <img class="testimonial_image" src="images/jim.jpg" alt="lady-profile">
+                    <em>Jim, Scranton</em>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#testimonial_carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+            <a class="carousel-control-next" href="#testimonial_carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+        </div>
+
+    </section>
+
+
+
+    <!-- Features -->
+
+    <section id="jukebox" class="features">
+
+
+        <div class="container-fluid">
+
+
+
+
+            <div class="w3-content w3-display-container">
+
+
+
+
+
+                <div class="w3-display-container mySlides">
+
+                    <div class="snapstack_mobile">
+                        <div class="snap_mobile snap--1_mobile">
+                            <div class="snap__frame_mobile snap__frame--blue_mobile">
+                                <img src="images/vynil.png" alt="" class="snap__img_mobile">
+                            </div>
+
+                            <div class="song_mobile snap__caption_mobile ">
+                                <button data-id_track="2" class="play play-2">Play</button>
+                                <audio onended="stopTrack(1)" class="track-2" src="music/Believer.mp3" controls preload="auto" autobuffer></audio>
+                            </div>
+
+                            <span class="snap__caption__text_mobile">I'm a believer</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="w3-display-container mySlides">
+
+                <<div class="snapstack_mobile">
+                    <div class="snap_mobile snap--1_mobile">
+                        <div class="snap__frame_mobile snap__frame--blue_mobile">
+                            <img src="vynil.png" alt="" class="snap__img_mobile">
+                        </div>
+
+                        <div class="song_mobile snap__caption_mobile ">
+                            <button data-id_track="1" class="play play-1">Play</button>
+                            <audio onended="stopTrack(1)" class="track-1" src="music/She.mp3" controls preload="auto" autobuffer></audio>
+                        </div>
+
+
+                        <span class="snap__caption__text_mobile">She</span>
+                    </div>
+            </div>
+
+        </div>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="w3-display-container mySlides">
+
+            <div class="snapstack_mobile">
+                <div class="snap_mobile snap--1_mobile">
+                    <div class="snap__frame_mobile snap__frame--blue_mobile">
+                        <img src="vynil.png" alt="" class="snap__img_mobile">
+                    </div>
+
+                    <div class="song_mobile snap__caption_mobile ">
+                        <button data-id_track="3" class="play play-3">Play</button>
+                        <audio onended="stopTrack(1)" class="track-3" src="music/Hey_Hey.mp3" controls preload="auto" autobuffer></audio>
+                    </div>
+
+                    <span class="snap__caption__text_mobile">Hey Hey</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="w3-display-container mySlides">
+
+            <div class="snapstack_mobile">
+                <div class="snap_mobile snap--1_mobile">
+                    <div class="snap__frame_mobile snap__frame--blue_mobile">
+                        <img src="vynil.png" alt="" class="snap__img_mobile">
+                    </div>
+
+                    <div class="song_mobile snap__caption_mobile ">
+                        <button data-id_track="4" class="play play-4">Play</button>
+                        <audio onended="stopTrack(1)" class="track-4" src="music/Daydream.mp3" controls preload="auto" autobuffer></audio>
+                    </div>
+
+
+                    <span class="snap__caption__text_mobile">Daydream Believer</span>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="w3-display-container mySlides">
+
+            <div class="snapstack_mobile">
+                <div class="snap_mobile snap--1_mobile">
+                    <div class="snap__frame_mobile snap__frame--blue_mobile">
+                        <img src="vynil.png" alt="" class="snap__img_mobile">
+                    </div>
+                    <div class="song_mobile snap__caption_mobile ">
+                        <button data-id_track="5" class="play play-5">Play</button>
+                        <audio onended="stopTrack(1)" class="track-5" src="music/Last_Train.mp3" controls preload="auto" autobuffer></audio>
+                    </div>
+
+                    <span class="snap__caption__text_mobile">Last Train To Clarksville</span>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="w3-display-container mySlides">
+
+            <div class="snapstack_mobile">
+                <div class="snap_mobile snap--1_mobile">
+                    <div class="snap__frame_mobile snap__frame--blue_mobile">
+                        <img src="vynil.png" alt="" class="snap__img_mobile">
+                    </div>
+
+                    <div class="song_mobile snap__caption_mobile ">
+                        <button data-id_track="6" class="play play-6">Play</button>
+                        <audio onended="stopTrack(1)" class="track-6" src="music/Pleasant_Valley_Sunday.mp3" controls preload="auto" autobuffer></audio>
+                    </div>
+                    <span class="snap__caption__text_mobile">Pleasant Valley Sunday</span>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row">
+
+            <div class="col-md-2  text-white" style="background-color: #ffe28a;">
+
+                <div class="snapstack">
+                    <div class="snap snap--1">
+                        <div class="snap__frame snap__frame--blue">
+                            <img src="vynil.png" alt="" class="snap__img">
+                        </div>
+
+                        <div class="song snap__caption ">
+                            <button data-id_track="1" class="play play-1">Play</button>
+                            <audio onended="stopTrack(1)" class="track-1" src="music/She.mp3" controls preload="auto" autobuffer></audio>
+                        </div>
+
+
+                        <span class="snap__caption__text">She</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-2 col-xs-1 text-white" style="background-color: #fff;">
+
+                <div class="snapstack">
+                    <div class="snap snap--1">
+                        <div class="snap__frame snap__frame--blue">
+                            <img src="vynil.png" alt="" class="snap__img">
+                        </div>
+
+                        <div class="song snap__caption ">
+                            <button data-id_track="2" class="play play-2">Play</button>
+                            <audio onended="stopTrack(1)" class="track-2" src="music/Believer.mp3" controls preload="auto" autobuffer></audio>
+                        </div>
+
+                        <span class="snap__caption__text">I'm a believer</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2 col-xs-1 text-white" style="background-color: #fff;">
+
+                <div class="snapstack">
+                    <div class="snap snap--1">
+                        <div class="snap__frame snap__frame--blue">
+                            <img src="vynil.png" alt="" class="snap__img">
+                        </div>
+
+                        <div class="song snap__caption ">
+                            <button data-id_track="3" class="play play-3">Play</button>
+                            <audio onended="stopTrack(1)" class="track-3" src="music/Hey_Hey.mp3" controls preload="auto" autobuffer></audio>
+                        </div>
+
+                        <span class="snap__caption__text">Hey Hey</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2 col-xs-1 text-white" style="background-color: #fff;">
+
+                <div class="snapstack">
+                    <div class="snap snap--1">
+                        <div class="snap__frame snap__frame--blue">
+                            <img src="vynil.png" alt="" class="snap__img">
+                        </div>
+
+                        <div class="song snap__caption ">
+                            <button data-id_track="4" class="play play-4">Play</button>
+                            <audio onended="stopTrack(1)" class="track-4" src="music/Daydream.mp3" controls preload="auto" autobuffer></audio>
+                        </div>
+
+
+                        <span class="snap__caption__text">Daydream Believer</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2 col-xs-1 text-white" style="background-color: #fff;">
+
+                <div class="snapstack">
+                    <div class="snap snap--1">
+                        <div class="snap__frame snap__frame--blue">
+                            <img src="vynil.png" alt="" class="snap__img">
+                        </div>
+                        <div class="song snap__caption ">
+                            <button data-id_track="5" class="play play-5">Play</button>
+                            <audio onended="stopTrack(1)" class="track-5" src="music/Last_Train.mp3" controls preload="auto" autobuffer></audio>
+                        </div>
+
+                        <span class="snap__caption__text">Last Train To Clarksville</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2 col-xs-1 text-white" style="background-color: #fff;">
+
+                <div class="snapstack">
+                    <div class="snap snap--1">
+                        <div class="snap__frame snap__frame--blue">
+                            <img src="vynil.png" alt="" class="snap__img">
+                        </div>
+
+                        <div class="song snap__caption ">
+                            <button data-id_track="6" class="play play-6">Play</button>
+                            <audio onended="stopTrack(1)" class="track-6" src="music/Pleasant_Valley_Sunday.mp3" controls preload="auto" autobuffer></audio>
+                        </div>
+                        <span class="snap__caption__text">Pleasant Valley Sunday</span>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- gallery -->
+
+    <section id="video-gallery" class="video-gallery">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-12 mb-4">
+
+                <!--Modal: Name-->
+                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+
+                        <!--Content-->
+                        <div class="modal-content">
+
+                            <!--Body-->
+                            <div class="modal-body mb-0 p-0">
+
+                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mNOIeyPXL3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                            </div>
+
+                            <!--Footer-->
+                            <div class="modal-footer justify-content-center">
+                                <span class="mr-4">Spread the word!</span>
+                                <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                <!--Twitter-->
+                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+                                <!--Google +-->
+                                <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+                                <!--Linkedin-->
+                                <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+                        <!--/.Content-->
+
+                    </div>
+                </div>
+                <!--Modal: Name-->
+
+                <a><img class="img-fluid z-depth-1" width="560" height="315" src="https://i.ytimg.com/an_webp/mNOIeyPXL3k/mqdefault_6s.webp?du=2999&sqp=CMnvz-MF&rs=AOn4CLBJhSiqU45ufQOuWjPRyHgLrhfVHg" alt="video"
+        data-toggle="modal" data-target="#modal1"></a>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <!--Modal: Name-->
+                <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+
+                        <!--Content-->
+                        <div class="modal-content">
+
+                            <!--Body-->
+                            <div class="modal-body mb-0 p-0">
+
+                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8Tb3rMEzF4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                            </div>
+
+                            <!--Footer-->
+                            <div class="modal-footer justify-content-center">
+                                <span class="mr-4">Spread the word!</span>
+                                <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                <!--Twitter-->
+                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+                                <!--Google +-->
+                                <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+                                <!--Linkedin-->
+                                <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+                        <!--/.Content-->
+
+                    </div>
+                </div>
+                <!--Modal: Name-->
+
+                <a><img class="img-fluid z-depth-1" width="560" height="315" src="https://i.ytimg.com/an_webp/8Tb3rMEzF4A/mqdefault_6s.webp?du=3000&sqp=CKDCz-MF&rs=AOn4CLDqH4xC2Rdcgw7i35Xjh78_6LZJmQ" alt="video"
+        data-toggle="modal" data-target="#modal6"></a>
+
+            </div>
+            <!-- Grid column -->
+
+ <!-- Grid column -->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <!--Modal: Name-->
+                <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+
+                        <!--Content-->
+                        <div class="modal-content">
+
+                            <!--Body-->
+                            <div class="modal-body mb-0 p-0">
+
+                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vmWEEawpU2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                            </div>
+
+                            <!--Footer-->
+                            <div class="modal-footer justify-content-center">
+                                <span class="mr-4">Spread the word!</span>
+                                <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                                <!--Twitter-->
+                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+                                <!--Google +-->
+                                <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+                                <!--Linkedin-->
+                                <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+                                <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+                        <!--/.Content-->
+
+                    </div>
+                </div>
+                <!--Modal: Name-->
+
+                <a><img class="img-fluid z-depth-1" width="560" height="315" src="https://i.ytimg.com/an_webp/vmWEEawpU2s/mqdefault_6s.webp?du=3000&sqp=CK-az-MF&rs=AOn4CLBZzNmsJ9JVhlvILgBUZ2JeUNaiLQ" alt="video"
+        data-toggle="modal" data-target="#modal6"></a>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+
+
+    </section>
+
+
+
+<!--Section: Contact v.2-->
+<section class="contact" id="contact">
+      <div class="container">
+            <div class="row">
+                <div class="col-md-6 " id="form_container">
+                    <h2>Contact Us</h2> 
+                    <p> Please contact us usign the form below. We would love to play at your next event !! </p>
+                    <form role="form" method="post" id="reused_form">
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label for="message"> Message:</label>
+                                <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="name"> Your Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <label for="email"> Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+    <!-- Script for Tablet and Mobile only slideshow -->
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js" integrity="sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=" crossorigin="anonymous"></script>
+
+
+    <!-- load scripts at the bottom of your page -->
+    <script src="site.js"></script>
+    
+    <!-- Validate email form --> 
+    <script>
+  function validateForm() {
+  var name =  document.getElementById('name').value;
+  if (name == "") {
+      document.getElementById('status').innerHTML = "Name cannot be empty";
+      return false;
+  }
+  var email =  document.getElementById('email').value;
+  if (email == "") {
+      document.getElementById('status').innerHTML = "Email cannot be empty";
+      return false;
+  } else {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      if(!re.test(email)){
+          document.getElementById('status').innerHTML = "Email format invalid";
+          return false;
+      }
+  }
+  var subject =  document.getElementById('subject').value;
+  if (subject == "") {
+      document.getElementById('status').innerHTML = "Subject cannot be empty";
+      return false;
+  }
+  var message =  document.getElementById('message').value;
+  if (message == "") {
+      document.getElementById('status').innerHTML = "Message cannot be empty";
+      return false;
+  }
+  document.getElementById('status').innerHTML = "Sending...";
+  document.getElementById('contact-form').submit();
+
+  }
+</script>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <p>© Copyright 2019 The Monkees</p>
+
+    </footer>
+
+
+</html>

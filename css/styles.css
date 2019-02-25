@@ -1,0 +1,568 @@
+.title {
+  background-color: #ffe28a;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.logo {
+  width: 20%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+.iphone {
+  width: 120%;
+  transform: rotate(25deg);
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.fas {
+  color: #ef8172
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+
+}
+
+.testimonials {
+  padding: 7% 15% 0;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial_image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press_image {
+  margin: 10% 2%;
+  width: 15%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+
+
+
+
+
+.song {
+  display: block;
+  margin: 50px 50px 0;
+  width: 400px;
+  text-align: center;
+  z-index: 100;
+}
+
+.song audio {
+  display: none;
+}
+
+
+
+
+
+.jukebox {
+  padding: 0 15%;
+  margin-top: 0;
+  text-align: center;
+  background-color: #ffe28a;
+  min-height: 700px;
+}
+
+
+.features {
+  padding: 7% 15%;
+  text-align: center;
+  height: 35rem;
+  background-color: #ffe28a;
+
+}
+
+.features p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+
+
+
+
+
+
+.snapstack {
+  display: block;
+  float: left;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 30rem;
+
+}
+
+.snapstack:hover .snapstack__snap:not(:hover) {
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+.snap {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: absolute;
+  transition: all 0.5s ease;
+  width: 20rem;
+  height: 20rem;
+}
+
+.snap--1 {
+  z-index: 10;
+  transform: rotate(-45deg);
+  margin: 0 100px;
+}
+
+.snap--2 {
+  transform: rotateZ(0deg);
+  z-index: 20;
+  margin: 0 60px;
+}
+
+.snap--3 {
+  transform: rotate(-15deg);
+  margin: 0 20px;
+  z-index: 30;
+}
+
+.snap--4 {
+  transform: rotate(0deg);
+  margin: 0 -20px;
+  z-index: 40;
+}
+
+.snap--5 {
+  transform: rotate(15deg);
+  margin: 0 -60px;
+  z-index: 50;
+}
+
+.snap--6 {
+  transform: rotate(30deg);
+  margin: 0 -100px;
+  z-index: 60;
+}
+
+.snap:hover {
+  transform: rotate(0) scale(1.3);
+  transition: all 0.5s ease;
+  z-index: 100;
+}
+
+.snap:hover>.snap__caption__text {
+  z-index: 110;
+  color: #ff0000
+}
+
+
+
+.snap__frame--blue {
+  background-color: #00cee2;
+}
+
+.snap__frame--purple {
+  background-color: #00cee2;
+
+}
+
+.snap__frame--red {
+  background-color: #ff6e57;
+}
+
+.snap__frame--orange {
+  background-color: #ff8c42;
+}
+
+.snap__frame--yellow {
+  background-color: #fccc39;
+}
+
+.snap__frame--green {
+  background-color: #7ddf64;
+}
+
+.snap__img {
+  border: none;
+  display: block;
+  font-family: "Walter Turncoat", sans-serif;
+  font-size: 1.6rem;
+  height: 100%;
+  outline: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  background-color: #000;
+  transition: 0.8s;
+  opacity: 1;
+}
+
+.snap__caption__text {
+  bottom: 14rem;
+  color: #333;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 1.5rem;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.snap__caption {
+  bottom: 4rem;
+  color: #333;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 1.5rem;
+  left: 35%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+
+.jukebox {
+  padding: 0 15%;
+  margin-top: 0;
+  text-align: center;
+  background-color: #ffe28a;
+  min-height: 700px;
+}
+
+
+.carousel-item-music {
+  z-index: 200;
+  height: 600px;
+  width: 600px;
+}
+
+.carousel-control-prev-music {
+  z-index: 200;
+}
+
+.carousel-control-next-music {
+  z-index: 200;
+}
+
+
+.new {
+  z-index: 300;
+  height: 1000px;
+}
+
+
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  display: inline-block;
+}
+
+
+
+
+
+.snapstack_mobile {
+  display: block;
+  float: left;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 30rem;
+
+}
+
+.snapstack_mobile:hover .snapstack__snap:not(:hover) {
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+.snap_mobile {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: absolute;
+  transition: all 0.5s ease;
+  width: 20rem;
+  height: 20rem;
+}
+
+.snap--1_mobile {
+  z-index: 10;
+  transform: rotate(-45deg);
+  margin: 0 100px;
+}
+
+.snap--2-mobile {
+  transform: rotateZ(0deg);
+  z-index: 20;
+  margin: 0 60px;
+}
+
+.snap--3 {
+  transform: rotate(-15deg);
+  margin: 0 20px;
+  z-index: 30;
+}
+
+.snap--4 {
+  transform: rotate(0deg);
+  margin: 0 -20px;
+  z-index: 40;
+}
+
+.snap--5 {
+  transform: rotate(15deg);
+  margin: 0 -60px;
+  z-index: 50;
+}
+
+.snap--6 {
+  transform: rotate(30deg);
+  margin: 0 -100px;
+  z-index: 60;
+}
+
+.snap_mobile:hover {
+  transform: rotate(0) scale(1.3);
+  transition: all 0.5s ease;
+  z-index: 100;
+}
+
+.snap_mobile:hover>.snap__caption__text_mobile {
+  z-index: 110;
+  color: #ff0000
+}
+
+
+
+.snap__frame--blue_mobile {
+  background-color: #00cee2;
+}
+
+.snap__frame--purple {
+  background-color: #00cee2;
+
+}
+
+.snap__frame--red {
+  background-color: #ff6e57;
+}
+
+.snap__frame--orange {
+  background-color: #ff8c42;
+}
+
+.snap__frame--yellow {
+  background-color: #fccc39;
+}
+
+.snap__frame--green {
+  background-color: #7ddf64;
+}
+
+.snap__img_mobile {
+  border: none;
+  display: block;
+  font-family: "Walter Turncoat", sans-serif;
+  font-size: 1.6rem;
+  height: 100%;
+  outline: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  background-color: #000;
+  transition: 0.8s;
+  opacity: 1;
+}
+
+.snap__caption__text_mobile {
+  bottom: 14rem;
+  color: #333;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 1.5rem;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.snap__caption_mobile {
+  bottom: 4rem;
+  color: #333;
+  font-family: "Walter Turncoat", cursive;
+  font-size: 1.5rem;
+  left: 35%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.song_mobile {
+  display: block;
+  margin: 50px 50px 0;
+  width: 400px;
+  text-align: center;
+  z-index: 100;
+}
+
+.song_mobile audio {
+  display: none;
+}
+
+/* media queries */
+
+@media (min-width: 992px) {
+
+  .snapstack_mobile {
+    display: none;
+  }
+
+  .snap_mobile {
+    display: none;
+  }
+
+  .snap--1_mobile {
+    display: none;
+  }
+
+  .snap__frame_mobile {
+    display: none;
+  }
+
+  .snap__frame--blue_mobile {
+    display: none;
+  }
+
+  .snap__caption__text_mobile {
+    display: none;
+  }
+
+  .snap__img_mobile {
+    display: none;
+  }
+
+.w3-display-left {
+  display: none;
+}
+
+.w3-display-right{
+  display: none;
+}
+
+}
+
+
+
+
+
+@media (max-width: 991px) {
+  .snapstack {
+    display: none;
+  }
+
+  .snap {
+    display: none;
+  }
+
+  .snap--1 {
+    display: none;
+  }
+
+  .snap__frame {
+    display: none;
+  }
+
+  .snap__frame--blue {
+    display: none;
+  }
+
+  .snap__caption__text {
+    display: none;
+  }
+
+  .snap__img {
+    display: none;
+  }
+  
+  
+}
+
+
+
