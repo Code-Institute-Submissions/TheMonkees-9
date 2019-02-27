@@ -1,4 +1,4 @@
-.title {
+ .title {
   background-color: #ffe28a;
 }
 
@@ -145,6 +145,9 @@ h3 {
   color: #8f8f8f;
 }
 
+#jukebox {
+  position: relative;
+}
 
 
 
@@ -523,6 +526,10 @@ h3 {
 }
 
 .w3-display-right{
+  display: none;
+}
+
+#arrow {
   display: none;
 }
 

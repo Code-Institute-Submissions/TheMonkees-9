@@ -55,15 +55,15 @@
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark">
 
-                <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"></img></a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                   
+                                   <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"></img></a>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item px-4">
                             <a class="nav-link text-dark" href="#jukebox">Jukebox</a>
 
@@ -86,17 +86,14 @@
                     <h1>The Monkees have returned ! </h1>
                     <br>
                     <br>
-                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-play"></i> Our Jukebox</button>
-                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-play"></i> Contact us</button>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-play"></i><a href="#jukebox"> Our Jukebox</a></button>
+                    <button type="button" class="btn btn-dark btn-lg download-button" href="#contact-form"><i class="fas fa-play"></i><a href="#contact-form"> Contact Us</a></button>
                     <div class=" justify-content-center ">
                         <span class="tagline">Spread the word!</span>
-                        <a type="button" class="btn-floating btn-dark btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-fb" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fab fa-facebook-f"></i></a>
                         <!--Twitter-->
-                        <a type="button" class="btn-floating btn-dark btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                        <!--Google +-->
-                        <a type="button" class="btn-floating btn-dark btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                        <!--Linkedin-->
-                        <a type="button" class="btn-floating btn-dark btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-tw" target="_blank" href="https://twitter.com/TheMonkees"><i class="fab fa-twitter"></i></a>
+                        
 
 
 
@@ -319,8 +316,8 @@
 
         </div>
 
-        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+        <button class="w3-button w3-display-left w3-black" id="arrow" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" id="arrow" onclick="plusDivs(1)">&#10095;</button>
         </div>
 
 
@@ -497,13 +494,10 @@
                             <!--Footer-->
                             <div class="modal-footer justify-content-center">
                                 <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+                                <a type="button" class="btn-floating btn-dark btn-sm btn-fb" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fab fa-facebook-f"></i></a>
+                        <!--Twitter-->
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-tw" target="_blank" href="https://twitter.com/TheMonkees"><i class="fab fa-twitter"></i></a>
+                               
 
                                 <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
 
@@ -536,7 +530,7 @@
                             <div class="modal-body mb-0 p-0">
 
                                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8Tb3rMEzF4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vmWEEawpU2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
 
                             </div>
@@ -544,13 +538,9 @@
                             <!--Footer-->
                             <div class="modal-footer justify-content-center">
                                 <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+                                <a type="button" class="btn-floating btn-dark btn-sm btn-fb" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fab fa-facebook-f"></i></a>
+                        <!--Twitter-->
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-tw" target="_blank" href="https://twitter.com/TheMonkees"><i class="fab fa-twitter"></i></a>
 
                                 <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
 
@@ -580,10 +570,10 @@
                         <div class="modal-content">
 
                             <!--Body-->
-                            <div class="modal-body mb-0 p-0">
+<div class="modal-body mb-0 p-0 second">
 
                                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vmWEEawpU2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                   <iframe width="560" height="315" src="https://www.youtube.com/embed/8Tb3rMEzF4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
 
                             </div>
@@ -591,13 +581,9 @@
                             <!--Footer-->
                             <div class="modal-footer justify-content-center">
                                 <span class="mr-4">Spread the word!</span>
-                                <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-                                <!--Twitter-->
-                                <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-                                <!--Google +-->
-                                <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-                                <!--Linkedin-->
-                                <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+                                <a type="button" class="btn-floating btn-dark btn-sm btn-fb" target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fab fa-facebook-f"></i></a>
+                        <!--Twitter-->
+                        <a type="button" class="btn-floating btn-dark btn-sm btn-tw" target="_blank" href="https://twitter.com/TheMonkees"><i class="fab fa-twitter"></i></a>
 
                                 <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
 
@@ -622,45 +608,100 @@
     </section>
 
 
+  <!-- Custom Contact Form -->
+    <section id="contact-form" class="contact-form">
 
-<!--Section: Contact v.2-->
-<section class="contact" id="contact">
-      <div class="container">
+    
+            <div class="container">
+
             <div class="row">
-                <div class="col-md-6 " id="form_container">
-                    <h2>Contact Us</h2> 
-                    <p> Please contact us usign the form below. We would love to play at your next event !! </p>
-                    <form role="form" method="post" id="reused_form">
-                        <div class="row">
-                            <div class="col-sm-12 form-group">
-                                <label for="message"> Message:</label>
-                                <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6 form-group">
-                                <label for="name"> Your Name:</label>
-                                <input type="text" class="form-control" id="name" name="name" required>
-                            </div>
-                            <div class="col-sm-6 form-group">
-                                <label for="email"> Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 form-group">
-                                <button type="submit" class="btn btn-lg btn-default pull-right" >Send &rarr;</button>
-                            </div>
-                        </div>
-                    </form>
-                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
-                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+
+                <div class="col-xl-8 offset-xl-2 py-5">
+
+
+<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">First Name *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your given name *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Last Name *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your surname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_need">Please specify your event type *</label>
+                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value=""></option>
+                        <option value="Request quotation">Wedding</option>
+                        <option value="Request order status">Corporate Event</option>
+                        <option value="Request copy of an invoice">Television/radio appearance</option>
+                        <option value="Other">Interview</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for the Monkees *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted">
+                    <strong>*</strong> These fields are required.</p>
+            </div>
+        </div>
+    </div>
 
-</section>
-<!--Section: Contact v.2-->
+</form>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        </section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+        <script src="contact.js"></script>
+    
+    
+    
+
 
     <!-- Script for Tablet and Mobile only slideshow -->
     <script>
@@ -694,41 +735,12 @@
     <!-- load scripts at the bottom of your page -->
     <script src="site.js"></script>
     
-    <!-- Validate email form --> 
-    <script>
-  function validateForm() {
-  var name =  document.getElementById('name').value;
-  if (name == "") {
-      document.getElementById('status').innerHTML = "Name cannot be empty";
-      return false;
-  }
-  var email =  document.getElementById('email').value;
-  if (email == "") {
-      document.getElementById('status').innerHTML = "Email cannot be empty";
-      return false;
-  } else {
-      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-      if(!re.test(email)){
-          document.getElementById('status').innerHTML = "Email format invalid";
-          return false;
-      }
-  }
-  var subject =  document.getElementById('subject').value;
-  if (subject == "") {
-      document.getElementById('status').innerHTML = "Subject cannot be empty";
-      return false;
-  }
-  var message =  document.getElementById('message').value;
-  if (message == "") {
-      document.getElementById('status').innerHTML = "Message cannot be empty";
-      return false;
-  }
-  document.getElementById('status').innerHTML = "Sending...";
-  document.getElementById('contact-form').submit();
-
-  }
-</script>
-
+    
+    
+    
+    
+    
+    
 
     <!-- Footer -->
 
