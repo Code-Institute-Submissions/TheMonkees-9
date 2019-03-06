@@ -97,7 +97,6 @@ As a soon-to-be wife/husband , I’d like to try and book the Monkees to play at
 Go to the main page
 Hover over “Contact” on the nav bar or the “Contact us” button, these should react when hovered over
 Click on either of them and be taken to the Contact form which is located as the last section on the same page
-Click on any of the vinyls’ play buttons and that specific track should automatically start playing in the background.
 Fill all the required fields and select “wedding” as the event type for which you are contacting the Monkees
 Submit the form and verify that a success message appears
 
