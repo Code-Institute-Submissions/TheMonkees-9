@@ -2,29 +2,31 @@ The Monkees Jukebox website
 By Giovanni Roberto Franzan
 
 In this project, I tried to have some fun with creating original features that I thought could work well with the overall vibe of the website and its users. I did a little bit of research into the target audience which gave me some inspiration and guidance for the creation of these features. I hope the website gives somewhat of a nostalgic but also fun vibe to its users.
+
 UX
 User stories:
-As an older fan of the Monkees, I’d like to re-listen to their greatest hits so that my mind may travel back to those days
-As a soon-to-be wife/husband , I’d like to try and book the Monkees to play at my wedding ceremony
+-> As an older fan of the Monkees, I’d like to re-listen to their greatest hits so that my mind may travel back to those days
+-> As a soon-to-be wife/husband , I’d like to try and book the Monkees to play at my wedding ceremony
+
 To me, designing a website for a band, that probably has a fanbase which is on average older than me, required me to do some “out of the box” thinking. The main question I had in my mind was, what would these users want?
 
-**I’m writing this README.md file just a few short days after Peter Tork’s tragic passing, which resulted in a downpour of comments in the Monkees’ Youtube videos and social media.
+**I’m writing this README file just a few short days after Peter Tork’s tragic passing, which resulted in a downpour of comments in the Monkees’ Youtube videos and social media.
 
 
-Todd bob5 days ago
+Todd bob 5 days ago
 This was back when life was good..... RIP PETER TORK.﻿
 
-Noel K5 days ago
+Noel K 5 days ago
 We were all young once and the lucky few remain young forever in our hearts. R.I.P. Peter Tork and thank you for the happy music memories.﻿
 
-Se7enwonders5 days ago
+Se7enwonders 5 days ago
 Rest In Peace Peter.  Yet another part of my childhood gone.  But the music will live forever.
 
-Journeyman2 years ago (edited)
+Journeyman 2 years ago (edited)
 God please take me back to this time of my childhood magical days! 
 :)﻿
 
-Bruce M.5 days ago (edited)
+Bruce M. 5 days ago (edited)
 By By Peter you now join Davy, R.I.P. both of you. I watched the show every week when I was a youngster and still enjoy their music.﻿
 
 
@@ -37,7 +39,8 @@ A website or an app, is a collection of features, and before these specific part
 I will personally go further and argue that specific features can define a website and make it more memorable as a whole, much more than following a specific layout, which may or may not be ultimately appropriate for the project.
 
 
-Features
+Features:
+
 Jukebox feature
 
 Nothing, to me, represents a jukebox (the feature I set out to design), like a vinyl record. So the first thing I did, was to go online (specifically Codepen) looking for examples.
@@ -77,35 +80,43 @@ I finally built a working HTML contact form using a Bootstrap 4 framework and AJ
 Tutorial link below:
 https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
 
-Technologies Used
-During this project I used the technologies listed below
+Technologies Used:
+
 JQuery
 The project uses JQuery for a number of different purposes: for the Youtube videos within modals feature, for the validation of the contact form and its sending via AJAX
+
 Javascript
 The project uses Javascript for a number of different purposes: for playing the MP3 files from the “Jukebox” and for some Bootstrap features to work
+
 PHP
 The project uses PHP to handle email sending
+
 Testing
+
 In this section, I show tests of the user stories as outlined in the UX section. I also try to talk about how different elements of the website look and work on different browsers and screen sizes.
-As an older fan of the Monkees, I’d like to re-listen to their greatest hits so that my mind may travel back to those days:
-Go to the main page
-Hover over “Jukebox” on the nav bar or the “Our Jukebox” button, these should react when hovered over
-Click on either of them and be taken to the Jukebox feature which is located a few sections down on the same page
-Click on any of the vinyls’ play buttons and that specific track should automatically start playing in the background.
-Once clicked on, the song should start playing and the writing on the button should now say “stop”. Click it once again, to stop the track.
-As a soon-to-be wife/husband , I’d like to try and book the Monkees to play at my wedding ceremony
-Go to the main page
-Hover over “Contact” on the nav bar or the “Contact us” button, these should react when hovered over
-Click on either of them and be taken to the Contact form which is located as the last section on the same page
-Fill all the required fields and select “wedding” as the event type for which you are contacting the Monkees
-Submit the form and verify that a success message appears
+
+-> As an older fan of the Monkees, I’d like to re-listen to their greatest hits so that my mind may travel back to those days:
+-Go to the main page
+-Hover over “Jukebox” on the nav bar or the “Our Jukebox” button, these should react when hovered over
+-Click on either of them and be taken to the Jukebox feature which is located a few sections down on the same page
+-Click on any of the vinyls’ play buttons and that specific track should automatically start playing in the background.
+-Once clicked on, the song should start playing and the writing on the button should now say “stop”. 
+-Click it once again, to stop the track.
+
+-> As a soon-to-be wife/husband , I’d like to try and book the Monkees to play at my wedding ceremony
+-Go to the main page
+-Hover over “Contact” on the nav bar or the “Contact us” button, these should react when hovered over
+-Click on either of them and be taken to the Contact form which is located as the last section on the same page
+-Fill all the required fields and select “wedding” as the event type for which you are contacting the Monkees
+-Submit the form and verify that a success message appears
 
 
-Testing the Monkees contact form:
-Go to the contact form section by clicking on “Contact us” or scrolling to the bottom of the page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+-> Testing the Monkees contact form
+-Go to the contact form section by clicking on “Contact us” or scrolling to the bottom of the page
+-Try to submit the empty form and verify that an error message about the required fields appears
+-Try to submit the form with an invalid email address and verify that a relevant error message appears
+-Try to submit the form with all inputs valid and verify that a success message appears.
+
 Designing a responsive website:
 Having mainly dealt with Bootstrap elements, it was expected that these would be automatically responsive to the browser size. Therefore,there wasn’t much work involved in making most of these elements look “good” on different screens.
 
@@ -115,5 +126,4 @@ The final result is that on tablets and mobiles, when you scroll down to the Juk
 
 Deployment
 I decided to opt for a very simple deployment to Github pages.
-The website can be accessed via the link below:                    
-https://asi9games.github.io/TheMonkees/
+The website can be accessed via the link below:                    https://asi9games.github.io/TheMonkees/
