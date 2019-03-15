@@ -4,6 +4,12 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.video-gallery {
+  padding: 0 !important;
 }
 
 .container-fluid {
@@ -69,6 +75,10 @@ h3 {
   font-weight: bold;
   color: #000;
 
+}
+
+h4 {
+  display: none;
 }
 
 .testimonials {
@@ -491,7 +501,6 @@ h3 {
 
 /* media queries */
 
-@media (min-width: 992px) {
 
   .snapstack_mobile {
     display: none;
@@ -577,7 +586,7 @@ h3 {
 margin: auto;
 }
 
-.footer {
+#footer {
   text-align: center;
   margin: 50px;
 }
