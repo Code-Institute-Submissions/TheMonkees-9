@@ -501,6 +501,7 @@ h4 {
 
 /* media queries */
 
+@media (min-width: 992px) {
 
   .snapstack_mobile {
     display: none;
@@ -579,17 +580,5 @@ h4 {
   
   
 }
-
-
-
-.bit-widget-initializer{
-margin: auto;
-}
-
-#footer {
-  text-align: center;
-  margin: 50px;
-}
-  
 
 
