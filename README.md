@@ -128,4 +128,45 @@ The final result is that on tablets and mobiles, when you scroll down to the Juk
 ## Deployment 
 I decided to opt for a very simple deployment to Github pages. The website can be accessed via the link below: https://asi9games.github.io/TheMonkees/
 
+## Credits
 
+### Content
+1. Jukebox feature
+* “Vinyl Color Test” by Antoine Lnit
+* “Vinyl Pure CSS” by Alexandre Broudin
+* “Snap Stack” by the Appnotist 
+
+2. Youtube videos and gifs
+* Video within Modals” on MDBootstrap 
+
+3. Theme
+* “Retro Color Palette” from color-hex.com 
+
+4. Main Image
+* "How to create a Cartoon effect in Photoshop CC" by Photoshop Amateur on Youtube
+
+5. Contact Form
+* How To Build a Working Bootstap Contact Form by Bootstrapious
+
+6. Tour Dates 
+* Events widget by "BandsinTown" 
+
+7. About Us
+* The Monkees Wikipedia page
+
+
+
+### Media
+1. Main Image
+* The Monkees Classic Album Collection (Box Set)
+
+2. Videos
+* The Monkees Live at the Royal Albert Hall by the raremonkees on Youtube
+* The Monkees Live on TV 2016 I'm A Believer / Good Times! by Cal Vid on Youtube
+* Davy Jones (THE MONKEES) on the TONIGHT SHOW in 1995! by BiGlee Archives on Youtube
+
+3. Media
+* All the audio tracks found on this website, belong to the Monkees
+
+### Acknowledgments
+Inspiration for simple Bootstrap one-page website from Angela Yu.
